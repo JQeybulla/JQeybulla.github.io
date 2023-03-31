@@ -152,15 +152,8 @@ html, body {
     border-radius: 10px;
 }
 
-
-
 /* Login  */
 #Login{
-    /* height: 90%; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* background-color: #c70ab5; */
     height: 70%;
     display: flex;
     align-items: center;
@@ -197,13 +190,6 @@ html, body {
     /* background-color: #c70ab5; */
 }
 
-/* #Login .container form .form-box div .row{
-    width: 100%;
-    background-color: #fff;
-}
-#Login .container form .form-box div .row .col-6{
-    border: 1px solid black;
-} */
 
 #Login .container form .form-box div p{
     /* width: 150%; */
@@ -216,15 +202,6 @@ input[type="checkbox"] {
     margin-right: 5px;
   }
 
-
-/* #Login .container form .form-box div .radios-left{
-    background-color: #c70ab5;
-    border: 1px solid black;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    width: 20%; */
-/* } */
 #Login .container form .form-box div input{
     width: 100%;
     padding: 15px;
@@ -237,13 +214,37 @@ input[type="checkbox"] {
     width: 100%;
 }
 
-/* #male, #female{
-    height: 20px;
-    padding: 0px;
-    margin: 0px;
-    width: 200px;
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
 }
 
-span{
-    font-weight: 600;
-    /* font-size: ; */
+
+
+
+.btn{
+    /* background-color: #c70ab5 !important; */
+    width: 100%;
+}
+.form-group .form-control{
+    padding: 15px;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
+}
+
+    /* .form-group {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .form-check {
+        margin-left: auto;
+    }
+
+    .form-check-input.float-end {
+        margin-left: 10px;
+    } */
+  
+  
